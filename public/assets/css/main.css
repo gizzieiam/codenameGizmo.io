@@ -2096,6 +2096,7 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		background-image: url('../../src/capture          ')
 	}
 
 		.image img {
@@ -3139,8 +3140,9 @@ input, select, textarea {
 			}
 
 		.wrapper.style4 {
-			background-color: transparent;
-		}
+			background-color: transparent; 
+
+		} 
 
 		.wrapper.style5 {
 			background-color: #ffffff;
@@ -3150,7 +3152,7 @@ input, select, textarea {
 			.wrapper.style5 strong, .wrapper.style5 b {
 				color: #2E3842;
 			}
-
+			
 			.wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h4, .wrapper.style5 h5, .wrapper.style5 h6 {
 				color: #2E3842;
 			}
@@ -3751,7 +3753,10 @@ input, select, textarea {
 	}
 
 /* CTA */
-
+	#cta{
+		background-image: url('../src/capture');
+		background-repeat: no-repeat;
+	}
 	#cta .inner {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -3814,10 +3819,10 @@ input, select, textarea {
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		/* background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Capture.PNG");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Capture.PNG");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Capture.PNG");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Capture.PNG"); */
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3966,8 +3971,8 @@ input, select, textarea {
 	body.landing #page-wrapper {
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/Capture.PNG");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.PNG");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3996,4 +4001,9 @@ input, select, textarea {
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
+	}
+	.teststyle{
+		background-image: url('../../../src/Capture.PNG');
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
